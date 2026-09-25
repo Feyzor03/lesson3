@@ -1,0 +1,7 @@
+num1 = input("Введите число: ")
+num2 = input("Введите число: ")
+
+int_num1 = int(num1)
+int_num2 = int(num2)
+
+print(int_num1 + int_num2)
