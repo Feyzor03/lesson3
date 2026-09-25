@@ -1,7 +1,11 @@
-num1 = input("Введите число: ")
-num2 = input("Введите число: ")
+try:
+    num1 = input("Введите число: ")
+    num2 = input("Введите число: ")
 
-int_num1 = int(num1)
-int_num2 = int(num2)
+    int_num1 = int(num1)
+    int_num2 = int(num2)
 
-print(int_num1 + int_num2)
+    print(int_num1 + int_num2)
+
+except ValueError:
+    print("Неправильные данные! Числа должны быть целыми")
